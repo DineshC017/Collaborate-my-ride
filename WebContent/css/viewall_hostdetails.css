@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+thead{
+	 background-color:#66ccff;
+	}
+	
+	h4 {
+	 margin-left:550px;
+	}
+	
+	.table-image td, .table-image th {
+	  vertical-align: middle;
+	}
+	
+	.buttonupdate{
+	background-color:#66ccff;
+	font-size:15px;
+	cursor:pointer;
+	height:40px;
+	border: 0;
+	width:100px;
+	margin-left:150px;
+	}
+		
+	.dropdown{
+	  margin-left:1060px;
+	  font-weight:bold;
+	}
+	
+	.viewmore{
+	    margin-left:170px;
+	    margin-top:150px;  
+	}

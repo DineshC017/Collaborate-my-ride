@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+label{
+	  font-size:25px;
+	   margin-left:550px;
+	}
+	
+	thead{
+	 background-color:#66ccff;
+	}
+	
+	.table-image td, .table-image th {
+	  vertical-align: middle;
+	}
+	
+	table{
+	  margin-left:140px;
+	}
+	
+	.viewmore{
+	   margin-left:550px;
+	   margin-top:240px;
+	}
+	
+	.buttonupdate{
+	background-color:#66ccff;
+	margin-left:150px;
+	cursor:pointer;
+	height:35px;
+	width:100px;
+	}
+	
+	.buttonupdate1{
+	background-color:green;
+	cursor:pointer;
+	height:35px;
+	width:200px;
+	color:white;
+	}
+	h2{
+	margin-left:100px;
+	}
+	

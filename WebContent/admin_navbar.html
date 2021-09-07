@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>admin-navbar</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">      
+        :root {
+           
+            --primary: #66ccff;
+            
+        }
+
+        .justify {
+            text-align: justify;
+        }
+
+        .text-purple {
+            color: var(--primary);
+        }
+
+        .bg-purple {
+            background-color: var(--primary);
+            color: white;
+        }
+        a{
+        	cursor:pointer;
+        }
+</style>
+<script>
+function myFunction() {
+  location.replace("http://localhost:8081/collab_ride/login.jsp")
+}
+</script>
+</head>
+<body>
+<nav class="nav bg-purple justify-content-center">
+        <a class="nav-link text-white" href="admindashboard.jsp"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        
+        <a class="nav-link text-white" onclick="myFunction();">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+    </nav>
+</body>
+</html>

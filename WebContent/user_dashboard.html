@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Dashboard</title>
+<meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <link rel="stylesheet" href="css/user_dashboard.css">
+ <script>
+function logout(){
+	location.replace("http://localhost:8081/collab_ride/login.jsp")
+}
+
+</script>
+</head>
+
+
+<body>
+<header id="header">
+       <div class="vertical-nav bg-white" id="sidebar">
+          <div class="py-4 px-3 mb-2 mt-2 bg-light">
+            <div class="align-items-center" id="half">    
+               <a class="navbar-brand text-center" href="user_dashboard.html"><h1>COLLABORATE MY RIDE</h1></a>
+            </div>
+          </div>
+          <br>
+          <ul class="nav flex-column bg-white mb-0">
+            <div class="nav-item">
+              <a href="mydashboard.jsp" class="nav-link text-dark font-italic bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>My Dashboard
+              </a>  
+            </div>
+    
+            <div class="nav-item">
+              <a href="editprofile.jsp" class="nav-link text-dark font-italic bg-light">
+                <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+                Edit Profile
+              </a>
+            </div>
+            
+            <div class="nav-item">
+              <a href="DateValidation" class="nav-link text-dark font-italic bg-light">
+                <i class="fas fa-calendar mr-3 text-primary fa-fw"></i>
+                Events
+              </a>
+            </div>
+            
+            <div class="nav-item">
+              <a href="host_registration.jsp" class="nav-link text-dark font-italic bg-light">
+                <i class="fas fa-clipboard-list mr-3 text-primary fa-fw"></i>
+                Host Ride
+              </a>
+            </div>
+            
+            <div class="nav-item">
+              <a href="review_card.jsp" class="nav-link text-dark font-italic bg-light">
+                <i class="far fa-id-card mr-3 text-primary fa-fw"></i>
+                Reviews
+              </a>
+            </div>
+            
+            <div class="nav-item">
+              <a href="listofrides.jsp" class="nav-link text-dark font-italic bg-light">
+                <i class="fas fa-list mr-3 text-primary fa-fw"></i>
+                View Requests
+              </a>
+            </div>
+            
+            <div class="nav-item">
+              <a href="#" onclick = "logout();"class="nav-link text-dark font-italic bg-light">
+                <i class="far fa-power-off mr-3 text-primary fa-fw"></i>
+                Logout
+              </a>
+            </div>
+          </ul>
+       </div>
+    </header>
+    
+    </body>
+</html>
